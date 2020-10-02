@@ -31,11 +31,14 @@ body {
 
 
 header {
-    width: 100%;
+    /*width: 100%;*/
+    max-width: 100%;
     position: fixed;
     top: 0;
     left: 0;
-    padding: 25px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
   
   header h1 {
@@ -91,13 +94,23 @@ ul li a {
     font-size: 18px;
 }
 .tweets {
-    width: 80%;
+    max-width: 100%;
+    width: 80vw;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center ;
 }
 
 .tweets img {
     width: 30%;
     padding: 10px;
 }
+
+/* @media (max-width: 1301px){
+    .tweets{
+        width: 100%
+    } 
+} */
