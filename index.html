@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+
     <title>Twitter - Hashtag</title>
   </head>
 
@@ -28,14 +29,17 @@
           <h1>Digite a hashtag do <br />momento que deseja ver</h1>
         </div>
       </section>
-
-      <section class="input-container">
-        <div>
-          <input type="text" name="hashtag" placeholder= "Digite a hashtag"/>
-        </div>
-      </section>
-      <button><a class="a-botao" href="search.html">Pesquisar</a></button>
+      
+      <div id="caixa-formulario">
+      <form id="formulario">
+        <input type="text" id="campo" placeholder="Digite a Hashtag">
+        <input id="botao-enviar" type="submit" value="Enviar">
+      </form>
+      </div>
+    
+      
     </main>
     <footer>Projeto Integrador - Grupo II</footer>
+    <script src="script.js"></script>
   </body>
 </html>
